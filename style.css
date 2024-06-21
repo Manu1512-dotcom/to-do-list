@@ -1,0 +1,123 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+#grad
+{
+    min-height: 150vh;
+    background-image:linear-gradient(to bottom right,rgb(8, 8, 96),rgb(135, 35, 135)) ;
+    /* background-size:; */
+}
+
+h1{
+    color: orange;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5vh;
+    text-decoration: underline;
+}
+
+#container
+{
+    margin: 10vh 0 0 30vw ;
+    background-color: white;
+    border-radius: 1.5vh;
+    width: 40vw;
+    height: fit-content;
+}
+
+#innerContainer1
+{
+    background-color: white;
+    height: 10vh;
+    width: 40vw;
+    text-align: center;
+    border-radius: 1.5vh;
+}
+
+#writtingBox
+{
+    padding-left: 0.5vw;
+    margin-top: 3vh;
+    height:4vh ;
+    width: 65%;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border: 2px solid orange;
+}
+
+#addButton
+{
+    font-size: 2vh;
+    color: white;
+    background-color: orange;
+    width: 15%;
+    height:4vh;
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    border: 2px solid orange;
+    box-sizing: content-box;
+}
+
+.tasks
+{
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.checkdiv
+{
+    background-color: white;
+    height: 1.5vh;
+    width: 1.5vh;
+    margin: 2.5vh 0 2.5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.checkButton
+{
+    height: 1vh;
+    width: 1vh;
+    border-radius: 50%;
+    /* border: .5vh solid white; */
+    /* box-shadow: .2vh .2vh black; */
+    /* background-color: orange; */
+}
+
+.checked
+{
+    background-color: orange;
+}
+
+.content
+{
+    /* background-color: green; */
+    width:80%;
+    margin: 2vh 0 2vh 0;
+}
+
+.completed
+{
+    text-decoration: line-through;
+}
+
+.deleteButton
+{
+    font-size: 1.5vh;
+    font-weight: 500;
+    background-color: white;
+    width: 2vh;
+    height: 2vh;
+    border: 0.2vh solid black;
+    margin: 2vh 0 2vh 0;
+    border-radius: 25%;
+}
+
